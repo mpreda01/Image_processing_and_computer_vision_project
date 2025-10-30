@@ -1,0 +1,172 @@
+{
+  "best_configuration": {
+    "rank": 1,
+    "hyperparameters": {
+      "nfeatures": 0,
+      "nOctaveLayers": 3,
+      "contrastThreshold": 0.015,
+      "edgeThreshold": 15,
+      "sigma": 1.6,
+      "k": 2,
+      "ratio_test": 0.85,
+      "ransac_threshold": 10.0,
+      "min_matches": 3,
+      "blur_kernel": 3,
+      "use_clahe": false,
+      "use_hist_eq": false
+    },
+    "metrics": {
+      "mean_absolute_error": 12931.774703460307,
+      "mean_percentage_error": 32.48089613003294,
+      "total_detections": 44,
+      "total_predicted_area": 778259.2361867533,
+      "scenes_evaluated": 18
+    },
+    "per_scene_errors": [
+      {
+        "scene_idx": 1,
+        "predicted_area": 46507.054015851,
+        "ground_truth_area": 38034.420683381846,
+        "absolute_error": 8472.633332469151,
+        "percentage_error": 22.2762255352848,
+        "relative_error": 0.22276225535284802
+      },
+      {
+        "scene_idx": 10,
+        "predicted_area": 8575.823161421344,
+        "ground_truth_area": 29381.845341251697,
+        "absolute_error": 20806.022179830354,
+        "percentage_error": 70.81251003189712,
+        "relative_error": -0.7081251003189711
+      },
+      {
+        "scene_idx": 15,
+        "predicted_area": 22230.8617045586,
+        "ground_truth_area": 42947.692283525015,
+        "absolute_error": 20716.830578966415,
+        "percentage_error": 48.237354506038294,
+        "relative_error": -0.48237354506038294
+      },
+      {
+        "scene_idx": 16,
+        "predicted_area": 35860.64957926981,
+        "ground_truth_area": 43822.42092026514,
+        "absolute_error": 7961.7713409953285,
+        "percentage_error": 18.16825993133005,
+        "relative_error": -0.1816825993133005
+      },
+      {
+        "scene_idx": 17,
+        "predicted_area": 36613.3461568692,
+        "ground_truth_area": 45654.513923874125,
+        "absolute_error": 9041.167767004925,
+        "percentage_error": 19.80344765488134,
+        "relative_error": -0.1980344765488134
+      },
+      {
+        "scene_idx": 18,
+        "predicted_area": 116021.70544101387,
+        "ground_truth_area": 72165.15262317176,
+        "absolute_error": 43856.55281784211,
+        "percentage_error": 60.772479823953226,
+        "relative_error": 0.6077247982395323
+      },
+      {
+        "scene_idx": 19,
+        "predicted_area": 74109.74649696241,
+        "ground_truth_area": 72917.09697985495,
+        "absolute_error": 1192.649517107464,
+        "percentage_error": 1.6356239709281917,
+        "relative_error": 0.016356239709281916
+      },
+      {
+        "scene_idx": 2,
+        "predicted_area": 16413.542506641155,
+        "ground_truth_area": 12031.44820613251,
+        "absolute_error": 4382.094300508645,
+        "percentage_error": 36.4220019521429,
+        "relative_error": 0.36422001952142896
+      },
+      {
+        "scene_idx": 23,
+        "predicted_area": 20724.877019117586,
+        "ground_truth_area": 19743.24011124624,
+        "absolute_error": 981.6369078713469,
+        "percentage_error": 4.972015243395546,
+        "relative_error": 0.049720152433955465
+      },
+      {
+        "scene_idx": 26,
+        "predicted_area": 90512.55012807634,
+        "ground_truth_area": 83019.3269291619,
+        "absolute_error": 7493.223198914435,
+        "percentage_error": 9.025878040794277,
+        "relative_error": 0.09025878040794277
+      },
+      {
+        "scene_idx": 27,
+        "predicted_area": 68650.61538934056,
+        "ground_truth_area": 81516.91544590204,
+        "absolute_error": 12866.300056561478,
+        "percentage_error": 15.783595326420418,
+        "relative_error": -0.1578359532642042
+      },
+      {
+        "scene_idx": 28,
+        "predicted_area": 17333.31547871232,
+        "ground_truth_area": 16405.090420974884,
+        "absolute_error": 928.2250577374361,
+        "percentage_error": 5.658152646026536,
+        "relative_error": 0.056581526460265354
+      },
+      {
+        "scene_idx": 3,
+        "predicted_area": 32949.003449900774,
+        "ground_truth_area": 26621.924599795137,
+        "absolute_error": 6327.078850105638,
+        "percentage_error": 23.766421643889437,
+        "relative_error": 0.23766421643889438
+      },
+      {
+        "scene_idx": 4,
+        "predicted_area": 101106.84133817726,
+        "ground_truth_area": 65912.32590470296,
+        "absolute_error": 35194.5154334743,
+        "percentage_error": 53.39595432326127,
+        "relative_error": 0.5339595432326127
+      },
+      {
+        "scene_idx": 5,
+        "predicted_area": 21655.52356113147,
+        "ground_truth_area": 17323.85731759912,
+        "absolute_error": 4331.666243532352,
+        "percentage_error": 25.004051719658644,
+        "relative_error": 0.25004051719658643
+      },
+      {
+        "scene_idx": 6,
+        "predicted_area": 26356.936966709152,
+        "ground_truth_area": 19779.730886308127,
+        "absolute_error": 6577.206080401025,
+        "percentage_error": 33.252252612566544,
+        "relative_error": 0.3325225261256654
+      },
+      {
+        "scene_idx": 7,
+        "predicted_area": 42636.843793000444,
+        "ground_truth_area": 31426.898746754276,
+        "absolute_error": 11209.945046246168,
+        "percentage_error": 35.669905378124255,
+        "relative_error": 0.35669905378124256
+      },
+      {
+        "scene_idx": 9,
+        "predicted_area": 0,
+        "ground_truth_area": 30432.425952716963,
+        "absolute_error": 30432.425952716963,
+        "percentage_error": 100.0,
+        "relative_error": -1.0
+      }
+    ]
+  }
+}
