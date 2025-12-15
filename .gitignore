@@ -1,2 +1,4 @@
 ipcv1_labels.json
 parse_labels.py
+wandb/
+ipcv-assignment-2/
