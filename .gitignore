@@ -3,3 +3,5 @@ parse_labels.py
 wandb/
 ipcv-assignment-2/
 dataset/
+weights/
+weights.zip
