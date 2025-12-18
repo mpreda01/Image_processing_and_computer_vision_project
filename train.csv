@@ -1,0 +1,12 @@
+﻿run_name;runtime (s);criterion;device;epochs;grad_clip;learning_rate;optimizer;scheduler;best_val_accuracy;train_loss_step
+B2-NoAugmentation_run;2081;CrossEntropyLoss;cuda;150;1;0.001;AdamW;CosineAnnealingLR;0.341330425;0.001916494
+B2-MaxPool_run;2504;CrossEntropyLoss;cuda;150;1;0.001;AdamW;CosineAnnealingLR;0.636314068;0.183447629
+B2-LowLR_run;2463;CrossEntropyLoss;cuda;150;1;0.0001;AdamW;CosineAnnealingLR;0.502726281;0.843262076
+B2-HighLR_run;2682;CrossEntropyLoss;cuda;150;1;0.005;AdamW;CosineAnnealingLR;0.604143948;0.131839737
+B2-No-BatchNorm_run;2407;CrossEntropyLoss;cuda;150;1;0.001;AdamW;CosineAnnealingLR;0.714285714;0.26076737
+B2-No-DropConnect_run;2422;CrossEntropyLoss;cuda;150;1;0.001;AdamW;CosineAnnealingLR;0.69302072;0.001750537
+B2-No-Swish_run;2344;CrossEntropyLoss;cuda;150;1;0.001;AdamW;CosineAnnealingLR;0.676663032;0.12484017
+B2-No-SE_run;2353;CrossEntropyLoss;cuda;150;1;0.001;AdamW;CosineAnnealingLR;0.724100327;0.055529322
+EfficientNet-B2_run;2429;CrossEntropyLoss;cuda;150;1;0.001;AdamW;CosineAnnealingLR;0.685932388;0.191620648
+EfficientNet-B1_run;2452;CrossEntropyLoss;cuda;150;1;0.001;AdamW;CosineAnnealingLR;0.662486369;0.029643053
+EfficientNet-B0_run;2299;CrossEntropyLoss;cuda;150;1;0.001;AdamW;CosineAnnealingLR;0.677208288;0.001306318
